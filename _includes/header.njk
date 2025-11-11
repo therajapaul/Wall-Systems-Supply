@@ -1,0 +1,59 @@
+<div class="d-block d-lg-none">
+<div class="offcanvas text-bg-menu  offcanvas-end" tabindex="-1" id="offcanvasMenu">
+<div class="offcanvas-header">
+<a href="/" class="offcanvas-title" title="{{ site.title }}"><img src="/images/logo.svg" alt=""></a>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-0">
+<nav class="mainNav">
+<ul>
+{% for item in navigation %}
+      <li class="{% if page.url == item.url %}current-menu-item{% endif %} {% if item.children %}has-dropdown{% endif %}">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+
+        {% if item.children %}
+          <ul class="dropdown">
+            {% for child in item.children %}
+              <li class="{% if page.url == child.url %}current-menu-item{% endif %}">
+                <a href="{{ child.url }}">{{ child.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %} 
+</ul> 
+</nav>
+</div>
+<div class="p-3">
+<a href="#request-sample" class="btn btn-primary w-100">Request a Sample</a>
+</div>
+</div>
+</div>
+
+<header class="header page-header">
+<div class="container">
+<a href="/" class="logo" title="{{ site.title }}"><img src="/images/logo.svg" alt=""></a> 
+<nav class="stellarnav">
+<ul>
+{% for item in navigation %}
+      <li class="{% if page.url == item.url %}current-menu-item{% endif %} {% if item.children %}has-dropdown{% endif %}">
+        <a href="{{ item.url }}">{{ item.title }}</a>
+
+        {% if item.children %}
+          <ul class="dropdown">
+            {% for child in item.children %}
+              <li class="{% if page.url == child.url %}current-menu-item{% endif %}">
+                <a href="{{ child.url }}">{{ child.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+</ul> 
+</nav>
+<a href="#request-sample" class="btn btn-primary">Request a Sample</a>
+<button type="button" class="menu-btn d-flex d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button"><span></span><span></span><span></span></button>
+</div> 
+</header> 

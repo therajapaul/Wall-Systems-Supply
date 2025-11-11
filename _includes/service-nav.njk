@@ -1,0 +1,21 @@
+<div class="col-lg-3">
+<ul class="prodcut-nav d-none d-lg-flex">
+{% for product in collections.products %}
+<li class="{% if page.url == product.url %}active{% endif %}">
+<a href="{{ product.url | url }}">{{ product.data.title }}</a>
+</li>
+{% endfor %}
+</ul> 
+<div class="dropdown product-dropdown d-block d-lg-none">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Products</button>
+<div class="dropdown-menu">
+<ul class="prodcut-nav">
+{% for product in collections.products %}
+<li class="{% if page.url == product.url %}active{% endif %}">
+<a href="{{ product.url | url }}">{{ product.data.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+</div> 

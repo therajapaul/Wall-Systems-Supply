@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Products",
+    "url": "#",
+    "children": [
+      { "title": "Stucco & Finishes", "url": "/products/stucco-finishes/" },
+      { "title": "EIFS", "url": "/products/eifs/" },
+      { "title": "Continuous Insulation", "url": "/products/continuous-insulation/" },
+      { "title": "Fastening Systems", "url": "/products/fastening-systems/" },
+      { "title": "Waterproofing & Moisture Control", "url": "/products/waterproofing-moisture-control/" },
+      { "title": "Sealants & Adhesives", "url": "/products/sealants-adhesives/" },
+      { "title": "Tools & Accessories", "url": "/products/tools-accessories/" },
+      { "title": "Scaffolds & Safety Equipment", "url": "/products/scaffolds-safety-equipment/" }
+    ]
+  },
+  {
+    "title": "Partners",
+    "url": "/partners/"
+  },
+  {
+    "title": "Locations",
+    "url": "/locations/"
+  },
+  {
+    "title": "About Us",
+    "url": "/about/"
+  },
+  {
+    "title": "Catalog",
+    "url": "/catalogs/"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact/"
+  }
+]

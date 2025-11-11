@@ -1,0 +1,25 @@
+<div class="section">
+<div class="container">
+<div class="why-content">
+<div class="text-center h4-32">
+<h4>Why Contractors Trust Wall Systems Supply</h4> 
+<p>Our commitment to reliability, expertise, and local service sets us apart.</p>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-10">
+<div class="row justify-content-center">
+{% for contractor in contractors %}
+<div class="col-md-6 col-lg-4 mt-4 font-14">
+<div class="why-box coleql_height">
+<div class="icon"><img src="{{ contractor.icon }}" alt="{{ contractor.alt }}"></div> 
+<h6>{{ contractor.title }}</h6>
+<p>{{ contractor.info }}</p>
+</div> 
+</div>
+{% endfor %}
+</div> 
+</div>
+</div>
+</div> 
+</div> 
+</div>

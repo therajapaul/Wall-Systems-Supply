@@ -1,0 +1,23 @@
+[
+  {
+    "cname": "Trim light Catalog",
+    "cimage": "/images/Logo-1.png",
+    "alt": "",
+    "cinfo": "Lorem ipsum dolor sit amet consectetur. Dolor mi pellentesque leo ipsum sagittis in sollicitudin mi. Tristique aliquam velit...",
+    "clink": "http://www.google.com/"
+  },
+    {
+    "cname": "Parex Catalog",
+    "cimage": "/images/Logo-2.png",
+    "alt": "",
+    "cinfo": "Lorem ipsum dolor sit amet consectetur. Dolor mi pellentesque leo ipsum sagittis in sollicitudin mi. Tristique aliquam velit...",
+    "clink": "http://www.google.com/"
+  },
+    {
+    "cname": "Trim light Catalog",
+    "cimage": "/images/Logo-1.png",
+    "alt": "",
+    "cinfo": "Lorem ipsum dolor sit amet consectetur. Dolor mi pellentesque leo ipsum sagittis in sollicitudin mi. Tristique aliquam velit...",
+    "clink": "http://www.google.com/"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Brooklyn (HQ)",
+    "address": "5223 1st Avenue, Brooklyn, NY 11232",
+    "phone": "718.630.5300",
+    "direction": "https://www.google.com/maps/place/5223+1st+Ave/@40.6488249,-74.0206423,17z/data=!3m1!4b1!4m2!3m1!1s0x89c25aae519d4789:0xa8a78550aefe4fd4"
+  },
+  {
+    "name": "Long Island",
+    "address": "275 Edison Avenue West Babylon, NY 11784",
+    "phone": "631.577.1800",
+    "direction": "https://www.google.com/maps/place/275+Edison+Ave/@40.7294833,-73.3902949,17z/data=!3m1!4b1!4m2!3m1!1s0x89e82b6a67fe0eb3:0xed52bdaed8e1afe6"
+  },
+  {
+    "name": "New Jersey",
+    "address": "575 Prospect Street, Unit 230 Lakewood, NJ 08701",
+    "phone": "732.364.2626",
+    "direction": "https://www.google.com/maps/place/575+Prospect+St/@40.069572,-74.238536,17z/data=!3m1!4b1!4m2!3m1!1s0x89c1786727ef6c23:0x71e2d449f81b5987"
+  },
+  {
+    "name": "Staten Island",
+    "address": "3521 Victory Boulevard Staten Island, NY 10314",
+    "phone": "718.494.2500",
+    "direction": "https://www.google.com/maps/place/3521+Victory+Blvd/@40.6019382,-74.1755281,17z/data=!3m1!4b1!4m2!3m1!1s0x89c24c8b74839549:0xb430016b96bd85ec"
+  }
+]

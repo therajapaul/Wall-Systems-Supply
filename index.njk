@@ -1,0 +1,107 @@
+---
+title: Wall Systems Supply
+layout: layouts/base.njk
+description: We Build Trust Into Your Walls
+keywords: Wall Systems Supply is a unique concept in the building materials industry
+---
+
+<div class="banner position-relative overflow-hidden">
+<div class="container">
+<div class="row">
+<div class="col-lg-7 col-xl-7 text-center text-lg-start font-18 font-18 h1-36">
+<h1>Trusted Building Materials, Delivered When You Need Them.</h1> 
+<p>Supplying contractors with stucco, EIFS, waterproofing, and<br> the hard-to-find building materials you depend on.</p>
+<div class="btn-div">
+<a href="#" class="btn btn-primary">Request a Sample</a> 
+<a href="#" class="btn btn-outline-light">Find a Store</a>
+</div>
+</div> 
+</div> 
+</div>
+<div class="image-fit"><img src="images/Hero-Image.png" alt=""></div> 
+<div class="banner-logos overflow-hidden">
+<div class="marquee-logos clearfix">
+<ul>
+{% for partner in partners %}
+<li><img src="{{ partner.pimage }}" alt="{{ partner.alt }}"></li>
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="section section-pattern">
+<div class="container">
+<div class="title h2-32">
+<h2>Explore Our Products</h2> 
+<p>From stucco to scaffolding, we supply everything contractors and ENowners need for reliable building solutions.</p>
+</div> 
+<div class="row justify-content-center">
+{% for product in products %}
+<div class="col-md-6 col-lg-4 col-xl-3 mt-4">
+<div class="product-box p-3">
+<div class="product-title">
+<div class="flex-shrink-0"><div class="icon"><img src="{{ product.icon }}" alt="{{ product.alt }}"></div></div> 
+<div class="flex-grow-1"><h6>{{ product.title }}</h6></div>
+</div>
+<div class="pb-3 pt-3 coleql_height">{{ product.info }}</div>
+<a href="{{ product.link }}">Explore More</a>
+</div> 
+</div>
+{% endfor %}
+</div>
+</div> 
+</div>
+
+<div class="section section-pattern-overlay w2" style="background-image: url(images/theme-img/pattern-background-2.png);">
+<div class="container">
+<div class="row flex-row-reverse">
+<div class="col-lg-6 col-xl-5 ms-auto full-img img-radius mb-4 mb-lg-0"><img src="images/img-1.png" alt=""></div> 
+<div class="col-lg-6 col-xl-6 color-fff font-14 content-style">
+<h3>Supplying Quality Building<br> Materials Over 40 Years</h3>
+<p>Wall Systems Supply is a trusted distributor of stucco, EIFS, insulation, waterproofing systems, and specialty construction products. For over 40 years, we’ve partnered with leading vendors to provide contractors and ENowners with the materials they need to build with confidence.</p>
+<hr>
+<ul>
+<li><strong>Wide Product Range:</strong> From stucco & EIFS to scaffolds & safety equipment.</li> 
+<li><strong>Trusted Partnerships:</strong> Featuring top brands like Dryvit, Sika, Tyvek, Trimwright, and more.</li> 
+<li><strong>Local Expertise:</strong> Serving NY & NJ with multiple locations and deep product knowledge.</li> 
+<li><strong>Hard-to-Find Items:</strong> Supplying specialty products other local suppliers don’t carry.</li> 
+</ul>
+<a href="#" class="btn btn-primary">Explore More</a>
+</div>
+</div> 
+</div> 
+</div>
+
+{% include "trust.njk" %}
+
+<div class="section section-pattern location-section pb-0">
+<div class="container">
+<div class="title color-fff h2-32">
+<h2>Find a Store Near You</h2>
+<p>Serving contractors and ENowners across NY & NJ with four convenient locations.</p>
+</div> 
+<div class="row">
+{% for location in locations %}
+<div class="col-lg-6 col-md-6 col-xl-3 mt-4">
+<div class="location-box p-3 coleql_height font-14">
+<div class="location-title">
+<div class="flex-shrink-0"><div class="icon"><img src="/images/theme-img/building.svg" alt=""></div></div> 
+<div class="flex-grow-1"><h6>{{ location.name }}</h6></div>
+</div> 
+<address>{{ location.address }}</address>
+<a href="tel:{{ location.phone }}" class="call">{{ location.phone }}</a>
+<a href="{{ location.direction }}" target="_blank" class="link">Get Directions</a>
+</div> 
+</div>
+{% endfor %}
+
+</div>
+</div>
+<div class="image-fit"><img src="/images/location-bg.png" alt=""></div> 
+</div>
+
+{% include "testimonial.njk" %}
+
+{% include "contact.njk" %}

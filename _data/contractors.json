@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Deep Inventory",
+    "icon": "/images/Icon-9.svg",
+    "alt": "",
+    "info": "Hard-to-find items always in stock."
+  },
+   {
+    "title": "Exclusive Products",
+    "icon": "/images/Icon-10.svg",
+    "alt": "",
+    "info": "Only from Trim Rite + select partners."
+  },
+    {
+    "title": "Flexible Service Area",
+    "icon": "/images/Icon-11.svg",
+    "alt": "",
+    "info": "We deliver 50–70 miles beyond our stores."
+  },
+    {
+    "title": "Reliable Availability",
+    "icon": "/images/Icon-12.svg",
+    "alt": "",
+    "info": "What you need, when you need it."
+  },
+    {
+    "title": "Expert Knowledge",
+    "icon": "/images/Icon-13.svg",
+    "alt": "",
+    "info": "Decades of hands-on product expertise."
+  },
+    {
+    "title": "Trusted & Local",
+    "icon": "/images/Icon-4.svg",
+    "alt": "",
+    "info": "Proud IMA member and industry partner."
+  }
+]

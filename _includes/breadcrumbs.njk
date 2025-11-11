@@ -1,0 +1,7 @@
+{% if breadcrumb %}
+<nav aria-label="Breadcrumb" class="breadcrum-items">
+<span><a href="/">Home</a></span>
+{% if breadcrumb.parent and breadcrumb.parent != 'Home' %}<span><a href="/{{ breadcrumb.parent | slug }}/">{{ breadcrumb.parent }}</a></span>{% endif %}
+<span aria-current="page" class="current-item">{{ breadcrumb.label }}</span>
+</nav>
+{% endif %}

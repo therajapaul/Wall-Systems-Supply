@@ -1,0 +1,22 @@
+<div class="section section-pattern">
+<div class="container">
+<div class="mb-4 mb-lg-5">
+<h3>Trusted by Contractors Across NY & NJ</h3> 
+<p>See what our customers say about our products, service, and expertise.</p>
+</div> 
+<div class="testi-slider">
+<div class="TestiSlider">
+{% for testimonial in testimonials %}
+<div class="item">
+<div class="ratio ratio-1x1"><div class="full-img"><img src="{{ testimonial.image }}" alt="{{ testimonial.alt }}"></div></div> 
+<div class="content">
+<div class="stars"><img src="/images/theme-img/stars.svg" alt=""></div> 
+<blockquote class="font-14">{{ testimonial.content }}</blockquote>
+<strong class="font-18">{{ testimonial.name }}</strong>
+</div>
+</div> 
+{% endfor %}
+</div> 
+</div>
+</div> 
+</div>

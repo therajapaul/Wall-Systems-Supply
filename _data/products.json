@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "/images/Icon-1.svg",
+    "alt": "Stucco & Finishes",
+    "title": "Stucco & Finishes",
+    "info": "Durable, high-quality stucco & finishing solutions for a flawless exterior.",
+    "link": "/products/stucco-finishes/"
+  },
+    {
+    "icon": "/images/Icon-2.svg",
+    "alt": "EIFS",
+    "title": "EIFS",
+    "info": "Energy-efficient systems that combine insulation with a durable finish.",
+    "link": "/products/eifs/"
+  },
+    {
+    "icon": "/images/Icon-3.svg",
+    "alt": "Continuous Insulation",
+    "title": "Continuous Insulation",
+    "info": "Insulation materials to improve thermal performance & reduce loss.",
+    "link": "/products/continuous-insulation/"
+  },
+    {
+    "icon": "/images/Icon-4.svg",
+    "alt": "Fastening Systems",
+    "title": "Fastening Systems",
+    "info": "Reliable fastening solutions to secure every part of your build.",
+    "link": "/products/fastening-systems/"
+  },
+    {
+    "icon": "/images/Icon-6.svg",
+    "alt": "Waterproofing & Moisture Control",
+    "title": "Waterproofing & Moisture Control",
+    "info": "Protect projects with trusted moisture barriers & waterproofing systems.",
+    "link": "/products/waterproofing-moisture-control/"
+  },
+    {
+    "icon": "/images/Icon-7.svg",
+    "alt": "Sealants & Adhesives",
+    "title": "Sealants & Adhesives",
+    "info": "Strong bonding and sealing solutions for long-lasting results.",
+    "link": "/products/sealants-adhesives/"
+  },
+    {
+    "icon": "/images/Icon-5.svg",
+    "alt": "Tools & Accessories",
+    "title": "Tools & Accessories",
+    "info": "Tools & Accessories",
+    "link": "/products/tools-accessories/"
+  },
+    {
+    "icon": "/images/Icon-8.svg",
+    "alt": "Scaffolds & Safety Equipment",
+    "title": "Scaffolds & Safety Equipment",
+    "info": "Safe, sturdy scaffolding and protective gear to keep your job site secure.",
+    "link": "/products/scaffolds-safety-equipment/"
+  }
+ ]

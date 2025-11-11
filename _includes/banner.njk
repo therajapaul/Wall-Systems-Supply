@@ -1,0 +1,14 @@
+{%- if banner and banner.show -%}
+<div class="banner page-banner position-relative overflow-hidden">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 text-center text-lg-start font-18 font-18 h1-36">
+{% include "breadcrumbs.njk" %}
+<h1>{{ banner.headline }}</h1> 
+<p>{{ banner.intro }}</p>
+</div> 
+</div> 
+</div>
+<div class="image-fit"><img src="{{ banner.image }}" alt="{{ banner.alt }}"></div> 
+</div>
+{%- endif -%}
